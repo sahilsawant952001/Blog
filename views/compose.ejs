@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+<center>
+    <h1 style="margin: 3%; color: #5bc0de;"><b>Compose</b></h1>
+    <form action = "/compose" method = "POST"  style="margin: 1%;">
+        <h3>Title</h3>
+        <input type="text" name="tx" style="width:100%; " class = "form-control" autocomplete="off">
+        <h3>Post</h3>
+        <textarea style="width: 100%; resize: none;" rows="7" class="form-control" name="po"></textarea>
+        <input type="submit" name="bt" class="btn btn-info" style="margin: 2%;">
+    </form>    
+</center></div>
+
+<%- include("partials/footer"); -%>

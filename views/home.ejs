@@ -1,0 +1,9 @@
+    <%- include("partials/header"); -%>
+    <h1>Hello</h1>
+    <p><%= homeContent %></p>
+    <%for(var i=0;i<posttext.length;i++){%>
+        <h3> <%= posttext[i].title1 %> </h3>
+        <h5> <%= posttext[i].post1.substring(0,400) %> <a href = "/post/<%= posttext[i].title1 %>" >Read More</a></h5>
+    <%}%>
+</div>
+
